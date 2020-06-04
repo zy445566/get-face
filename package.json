@@ -1,0 +1,27 @@
+{
+  "name": "get-face",
+  "version": "1.0.0",
+  "description": "use wasm opencv.js to get face!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zy445566/get-face.git"
+  },
+  "keywords": [
+    "opencv",
+    "face"
+  ],
+  "author": "zy445566",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zy445566/get-face/issues"
+  },
+  "homepage": "https://github.com/zy445566/get-face#readme",
+  "dependencies": {
+    "@types/node": "^14.0.10",
+    "jimp": "^0.12.1"
+  }
+}
