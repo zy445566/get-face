@@ -1,6 +1,6 @@
 {
   "name": "get-face",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "use wasm opencv.js to get face!",
   "main": "index.js",
   "scripts": {
