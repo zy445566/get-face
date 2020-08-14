@@ -8,7 +8,7 @@ npm i get-face
 
 # example
 ```js
-const getFace = require('./get-face');
+const getFace = require('get-face');
 const fs = require('fs');
 const faceImgBufList = await getFace.getFace(fs.readFileSync('./imgInput.jpg'),'image/jpeg');
 for(let i=0;i<faceImgBufList.length;i++) {

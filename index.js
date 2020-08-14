@@ -57,7 +57,8 @@ async function getFace(srcBuffer,mime='image/jpeg',top=0,right=0,bottom=0,left=0
             w:faces.get(i).width+(left>faces.get(i).x?faces.get(i).x:left)+right, 
             h:faces.get(i).height+(top>faces.get(i).y?faces.get(i).y:top)+bottom
         }
-        const jimpDest = await jimpSrc.crop(
+        const jimpSrcClone = await jimpSrc.clone();
+        const jimpDest = await jimpSrcClone.crop(
             rect.x>0?rect.x:0, 
             rect.y>0?rect.y:0, 
             rect.w>0?rect.w:0, 
